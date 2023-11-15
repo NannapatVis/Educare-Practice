@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #F9E0AE;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #000;
+    font-family: Jim Nightshade;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.menu li {
+    margin-left: 56px;
+}
+
+.menu li a  {
+    text-decoration: none;
+    border-radius: 10px;
+    background: #C24914;
+    color: #ffff;
+    padding: 10px 24px;
+}
+
+.banner {
+    color: #000;
+    height: 720px;
+    display: flex;
+    
+}
+
+.banner h1 {
+    margin-top: 150px;
+    justify-content: right;
+    text-align: left;
+    color: #000;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;  
+}
+
+.banner p {
+    margin-top: 40px;
+    margin-block-end: 40px;
+    text-align-last: justify;
+    text-indent: 1px;
+    margin-right: 20px;
+    color: rgba(0, 0, 0, 0.46);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.banner-info {
+    margin: 70px;
+    width: 90%;
+}
+
+.banner-info img {
+    float: right;
+}
+
+.banner-info a.button {
+    margin-bottom: 100px;
+    text-decoration: none;
+    border-radius: 10px;
+    background: #682C0E;
+    color: #fff;
+    padding: 10px 24px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    
+}
+
+.info1 {
+    margin: 70px;
+    width: 90%;
+    margin-bottom: 100px;
+}
+
+.info1 img {
+    float: left;
+}
+
+.info1 h1 {
+    text-align: right;
+    color: #000;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.info1 ul li{
+    margin-top: 30px;
+    text-decoration: dotted;
+    text-align: left; /* จัดให้ข้อความอยู่ทางซ้าย */
+    list-style-position: inside; /* จัดจุดอยู่ในข้อความ */
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-indent: 130px; /* ปรับค่าเป็นลบเพื่อขยับข้อความและจุดไปทางขวา */
+}
+
+.info2 {
+    margin-top: 250px;
+    width: 90%;
+}
+
+.info2 img {
+    float: right;
+}
+
+.info2 h1 {
+    margin: 150px;
+    margin-left: 70px; /* ระยะห่างทางซ้ายมือ 20px */
+    justify-content: right;
+    text-align: left;
+    color: #000;
+    color: #000;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #F9E0AE;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.box li:not(.button) {
+    list-style-type: none; /* Remove the list-style (bullets) */
+    padding: 10px;
+    background-color: #FFF;
+}
+
+
+.box li:not(.button) a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.box li.button {
+    display: flex;
+    justify-content: flex-end; /* Align to the center-right */
+}
+
+
+.box li.button a {
+    list-style-type: none;
+    background-color: #C24914;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+.info3 {
+    margin-top: 25px;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    overflow: hidden; /* Clear float within the container */
+}
+
+.info3 .img1 img {
+    border-radius: 100%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-right: 550px;
+    margin-bottom: 20px; /* Adjust this value to move the image above the text */
+}
+
+.info3 h1 {
+    text-align-last: justify;
+    margin-top: 5px;
+    margin-left: 150px;
+    text-align: left;
+    color: #000;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font: 6em ;
+}
+
+.info3 p {
+    margin-top: 25px;
+    margin-left: 150px;
+    text-align-last: justify;
+    text-indent: 1px;
+    margin-right: 20px;
+    color: rgba(0, 0, 0, 0.46);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    float: left;
+}
+
+
+.info3 a.img2 img {
+    border-radius: 55%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-right: 75px;
+}
+
+.info3  a.button  {
+    margin-top: 90px;
+    position: relative; /* เปลี่ยนเป็น relative position */
+    left: -25%; /* ใช้ left เพื่อย้ายปุ่มไปทางซ้าย */
+    text-align-last: justify;
+    text-decoration: none;
+    border-radius: 10px;
+    background: #FC8621;
+    color: #fff;
+    padding: 10px 24px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    float: left;
+    text-align: left;
+    border: none;
+}
+
+.info3 a.img3 img {
+    margin-top: 50px;
+    margin-right: 1200px; 
+    border-radius: 55%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    float: right;
+}
+
+.info3 a.img4 img {
+    margin-top: 50px;
+    margin-left: 270px; 
+    border-radius: 55%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    float: left;
+}
+
+.info3 img {
+    margin-top: 1px;
+    float: right;   
+}
+
+footer {
+    background-color: #F9E0AE;
+    color: #000;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
